@@ -16,4 +16,6 @@ typedef struct Publisher {
     void (*notifySubscribers)(struct Publisher* self, const char* eventInfo);
 } Publisher;
 
+void publisherInit(Publisher* pub);
+
 # endif // PUBLISHER_H

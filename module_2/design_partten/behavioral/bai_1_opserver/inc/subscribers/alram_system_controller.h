@@ -7,4 +7,6 @@ typedef struct {
     Subscriber base;
 }AlarmSystemController;
 
+void alarmSystemControllerInit(AlarmSystemController* controller);
+
 #endif // ALARM_SYSTEM_CONTROLLER_H
