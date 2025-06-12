@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "lighting.h": "c",
+        "stdio.h": "c",
+        "temperature_sensor.h": "c"
+    }
+}
