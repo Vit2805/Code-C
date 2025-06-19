@@ -19,6 +19,7 @@ PlayerState* bufferingStateCreate() {
     state->pressStop = pressStop;
     state->setContext = setContext;
     state->player = NULL;
+    
     return state;
 }
 

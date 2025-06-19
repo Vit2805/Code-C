@@ -37,9 +37,11 @@ MusicPlayer* musicPlayerCreate(PlayerState* initialState) {
     player->clickPlayButton = clickPlayButton;
     player->clickPauseButton = clickPauseButton;
     player->clickStopButton = clickStopButton;
+    
     if (initialState && initialState->setContext) {
         initialState->setContext(initialState, player);
     }
+
     return player;
 }
 

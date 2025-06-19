@@ -7,12 +7,13 @@ void initTemperatureSensor() {
 }
 
 int temperatureSensorRead(int temperature) {
-    printf("Temperature: %d ", temperature);
+    return temperature;
 }
 
 TemperatureSensor createTemperatureSensor() {
     TemperatureSensor sensor;
     sensor.init = initTemperatureSensor;
     sensor.temperature = temperatureSensorRead;
+    
     return sensor;
 }

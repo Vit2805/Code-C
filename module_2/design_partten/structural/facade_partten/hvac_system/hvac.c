@@ -25,5 +25,6 @@ HVACSystem* createHVACSystem() {
     system->coolingMode = coolingMode;
     system->warmingMode = warmingMode;
     system->setTemperature = setTemperature;
+    
     return system;
 }

@@ -1,13 +1,9 @@
 #ifndef BUTTON_2_H
 #define BUTTON_2_H
 
-// Button 2 structure
-typedef struct {
-    int isPressed;
-}Button2;
+#include "status.h"
 
 // Function declaration
-void initButton2();
-int isButton2Pressed(Button2* button, int isPressed);
+void handle_button_2(SystemStatus* status);
 
 #endif // BUTTON_2_H

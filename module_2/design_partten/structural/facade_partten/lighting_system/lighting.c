@@ -22,5 +22,6 @@ LightingSystem* createLightingSystem() {
     system->turnOn = turnOn;
     system->turnOff = turnOff;
     system->setBrightness = setBrightness;
+    
     return system;
 }

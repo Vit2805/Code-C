@@ -6,11 +6,9 @@
 // Led Stucture
 typedef struct {
     LedStatus_t currentLedStatus;
-    void (*ledHandler)(LedStatus_t status, const char *format, ...);
 }LedRgb;
 
 // Funtion declarations
-void initLedRgb(LedRgb* led);
-void updateLedRgbStatus(LedRgb* led, LedStatus_t status);
+void updateLedStatus(LedStatus_t ledstatus);
 
 #endif // LED_RGB_H

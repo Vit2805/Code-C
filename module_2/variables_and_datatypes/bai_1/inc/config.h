@@ -4,7 +4,7 @@
 #define DEFAULT_HUMIDITY_MIN 20 // %
 #define DEFAULT_HUMIDITY_MAX 80 // %
 #define DEFAULT_WATERING_MAX 20 // sec
-#define DEFAULT_SENSOR_INTERVAL 10 // m
+#define DEFAULT_SENSOR_INTERVAL 10 // min
 #define DEFAULT_SYSTEM_STATUS MODE_AUTO // status
 
 // System config
@@ -16,6 +16,7 @@ typedef struct {
     char system_status;
 }SystemConfig_t;
 
-void systemInit(); 
+
+SystemConfig_t defaultSystemConfig(void);
 
 #endif // CONFIG_H

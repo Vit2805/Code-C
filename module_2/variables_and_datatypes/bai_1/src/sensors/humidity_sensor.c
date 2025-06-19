@@ -7,12 +7,13 @@ void initHumiditySensor() {
 }
 
 int humiditySensorRead(int humidity) {
-    printf("Humidity: %d %\n", humidity);
+    return humidity;
 }
 
 HumiditySensor createHumiditySensor() {
     HumiditySensor sensor;
     sensor.init = initHumiditySensor;
     sensor.humidity = humiditySensorRead;
+    
     return sensor;
 }

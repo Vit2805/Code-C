@@ -18,6 +18,7 @@ PlayerState* playtingStateCreate() {
     state->pressStop = pressStop;
     state->setContext = setContext;
     state->player = NULL;
+    
     return state;
 }
 

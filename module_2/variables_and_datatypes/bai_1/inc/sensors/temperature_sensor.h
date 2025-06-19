@@ -4,7 +4,7 @@
 // Temperature Sensor Structure
 typedef struct {
     void (*init)(void);
-    int temperature;
+    int (*temperature)(int value);
 }TemperatureSensor;
 
 // Function declaration

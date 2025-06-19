@@ -18,12 +18,12 @@ PlayerState* stoppedStateCreate() {
     state->pressStop = pressStop;
     state->setContext = setContext;
     state->player = NULL;
+
     return state;
 }
 
 static void pressPlay(PlayerState *state) {
     printf("Starting music...\n");
-    // Change to PlayingState
     state->player->changeState(state->player, playingStateCreate());
 }
 

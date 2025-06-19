@@ -15,7 +15,4 @@ struct PlayerState {
     struct MusicPlayer *player; // Context reference
 };
 
-
-
-
 #endif // PLAYER_STATE_H

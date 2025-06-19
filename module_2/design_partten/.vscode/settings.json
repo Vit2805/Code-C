@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "stdio.h": "c",
-        "sensor_factory.h": "c",
-        "sensor.h": "c"
-    }
-}
