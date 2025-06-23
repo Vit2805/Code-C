@@ -31,7 +31,5 @@ typedef struct {
     SystemConfig_t config;
 } SystemStatus;
 
-// Function Declaration
-void initSystem();
 
 #endif // STATUS_H
